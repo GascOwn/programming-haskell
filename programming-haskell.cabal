@@ -31,6 +31,9 @@ library
       Chapter3.Types
       Chapter4.DefiningFunctions
       Chapter5.ListComprehensions
+      Chapter5.Zip
+      Chapter6.RecursiveFunctions
+      Chapter7.HigherOrder
   other-modules:
       Paths_programming_haskell
   hs-source-dirs:
