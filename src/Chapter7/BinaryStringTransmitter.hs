@@ -24,7 +24,7 @@ int2bin n = n `mod` 2 : int2bin (n `div` 2)
 setParityBit :: [Bit] -> [Bit]
 setParityBit [] = []
 setParityBit list
-    | even . length . filter (==1) $ list = 0 : list
+    | even . sum $ list = 0 : list
     | otherwise = 1 : list
 
 make8 :: [Bit] -> [Bit]
@@ -40,8 +40,8 @@ chop9 bits = take 9 bits : chop9 (drop 9 bits)
 checkParityBit :: [Bit] -> [Bit]
 checkParityBit [] = error "Empty binary"
 checkParityBit (x:xs)
-    | (even . length . filter (==1) $ xs) && x == 0 = xs
-    | (odd . length . filter (==1) $ xs) && x == 1 = xs
+    | (even . sum $ xs) && x == 0 = xs
+    | (odd . sum $ xs) && x == 1 = xs
     | otherwise = error "Error in binary transimission"
 
 
