@@ -1,6 +1,6 @@
 module Main where
 
-import Chapter4.DefiningFunctions
+import Chapter7.Folds
 
 main :: IO ()
-main = print $ luhn 1 7 8 4
+main = print $ foldReverse [1,2,3,4]

@@ -80,6 +80,3 @@ luhnDouble digit
 
 luhn :: Int -> Int -> Int -> Int -> Bool
 luhn a b c d = (d + luhnDouble c + luhnDouble b + luhnDouble a) `rem` 10 == 0
-
-luhnList :: [Int] -> Bool
-luhnList list = (foldr ((+) . luhnDouble)  0 list) `rem` 10 == 0

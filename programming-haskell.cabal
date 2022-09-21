@@ -33,7 +33,14 @@ library
       Chapter5.ListComprehensions
       Chapter5.Zip
       Chapter6.RecursiveFunctions
+      Chapter7.BinaryStringTransmitter
+      Chapter7.Composition
+      Chapter7.Exercices
+      Chapter7.Folds
       Chapter7.HigherOrder
+      Chapter7.ProcessingLists
+      Chapter7.Voting
+      Chapter8.TypesAndClasses
   other-modules:
       Paths_programming_haskell
   hs-source-dirs:
