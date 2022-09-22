@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.4.
+-- This file has been generated from package.yaml by hpack version 0.35.0.
 --
 -- see: https://github.com/sol/hpack
 
@@ -27,6 +27,11 @@ library
   exposed-modules:
       Chapter1.Exercises
       Chapter1.Intro
+      Chapter10.Exercises
+      Chapter10.Hangman
+      Chapter10.InteractiveProgramming
+      Chapter10.Nim
+      Chapter12.Functors
       Chapter2.Functions
       Chapter3.Types
       Chapter4.DefiningFunctions
@@ -35,11 +40,14 @@ library
       Chapter6.RecursiveFunctions
       Chapter7.BinaryStringTransmitter
       Chapter7.Composition
-      Chapter7.Exercices
+      Chapter7.Exercises
       Chapter7.Folds
       Chapter7.HigherOrder
       Chapter7.ProcessingLists
       Chapter7.Voting
+      Chapter8.Classes
+      Chapter8.Exercises
+      Chapter8.RecursiveTypes
       Chapter8.TypesAndClasses
   other-modules:
       Paths_programming_haskell
